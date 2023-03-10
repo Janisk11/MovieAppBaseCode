@@ -1,0 +1,45 @@
+
+#main {
+  position: relative;
+  top: 70px;
+}
+a {
+  text-decoration: none;
+}
+
+.main-wrapper{
+  padding-top: 25px;
+}
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px;
+  background: rgb(22, 21, 27);
+  color: White;
+}
+.multi-carousel-item{
+  width: 230px !important;
+  height: 375px;
+  padding: 0 12px;
+}
+
+.movie-image{
+  height: 170px;
+  width: 100%;
+}
+
+.edit-link, .logo-link {
+  color: white;
+}
+#search-result {
+  display: block;
+}
+#no-search-result {
+  display: none;
+}
+
+.form-required:after {
+  color: #e32;
+  content: '*';
+  display:inline;
+}
